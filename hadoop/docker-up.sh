@@ -1,0 +1,1 @@
+docker run --rm -p 8088:8088 -p 8042:8042 -v ~/hadoop/share:/share -i -t anaerobic/hadoop-fsharp /etc/bootstrap.sh -bash
