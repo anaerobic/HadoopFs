@@ -2,6 +2,8 @@ cd $HADOOP_PREFIX
 
 #bin/hdfs dfsadmin -safemode leave
 
+bin/hdfs dfs -mkdir /hdfs
+
 bin/hdfs dfs -mkdir /hdfs/words
 
 bin/hdfs dfs -copyFromLocal /share/data/words/* /hdfs/words/
